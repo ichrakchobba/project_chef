@@ -1,0 +1,126 @@
+.main{
+  text-align:center ;
+  justify-content: center;
+  display: flex;
+  padding: 90px 0 90px 0;
+  background-image: url(/src/image/i.jpg);
+  position: relative;
+  
+
+}
+.sub-main{
+  display: flex;
+  justify-content: right;
+  height: 530px;
+  width: 35%;
+  box-shadow:11px 12px 13px 12px irgba(207, 207, 207, 0.219) ;
+  padding-top: 30px;
+  border-radius: 60px;
+  background-color: rgba(245, 229, 250, 0.021);
+  position: relative;
+  top: -70px;
+
+}
+.imgs{
+  padding-top: 15px ;
+  justify-content:center ;
+  display: flex;
+
+}
+.contrainer-image{
+  background-color: rgb(223, 221, 221);
+  border-radius: 110px;
+  align-items:center;
+  display: flex;
+  height:120px;
+  width:120px ;
+}
+.profile{
+  height: 120px;
+  width: 99%;
+  border-radius: 115px;
+}
+input{
+  width:300px ;
+  height: 50px;
+  border-radius: 60px;
+ box-shadow: inset 0px 0px 25px 0px #d6d2d2ad;
+ border: none;
+  outline: none;
+  background-color: hwb(187 90% 0% / 0.068);
+}
+.email{
+  height:25px;
+  width: 25px;
+  padding: 14px 0 0 25px;
+  position: absolute;
+}
+.name {
+  padding-left: 70px;
+  font-size: 20px;
+}
+.second-input{
+  
+padding-top:20px;}
+
+button{
+  width: 380px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: rgba(12, 9, 9, 0.562);
+  font-size: 25px;
+  border: none;
+}
+ 
+.login-button{
+  padding-top: 20px;
+}
+.link{
+font-size: 17px;
+}
+.icons{
+  display: flex;
+  align-items: center;
+  height: 1vh;
+  outline: none;
+  justify-content: 10px; 
+  position:absolute;
+  left:50px;
+  border-spacing: 15%;
+
+
+}
+.icon {
+  height: 25px;
+  width:25px;
+  cursor: pointer;
+  
+
+
+}
+.facebook{
+  color: rgb(15, 13, 22);
+ 
+
+}
+
+.facebook:hover{transform: scale(1.25);
+  color:rgb(27, 10, 10)
+
+}
+.google{
+  color: rgb(11, 9, 17);
+ 
+}
+
+.google:hover{transform: scale(1.25);
+  color:rgb(29, 16, 16)
+}
+.linkedin{
+  color: rgb(246, 243, 255);
+
+}
+
+.linkedin:hover{transform: scale(1.25);
+  color:rgb(27, 10, 10)
+}
